@@ -1,0 +1,16 @@
+# RAW FILES
+telecom_data:
+  filepath:  data/01_raw/Telecom_customer_churn.csv
+  type: pandas.CSVDataSet
+
+some_number:
+  type: MemoryDataSet
+  value: 5
+
+incremented_number:
+  type: MemoryDataSet
+  value: null
+
+incremented_twice:
+  type: MemoryDataSet
+  value: null
